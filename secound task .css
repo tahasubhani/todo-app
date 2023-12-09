@@ -1,0 +1,79 @@
+.con{
+    background-image: url("./wallpaperflare.com_wallpaper\ \(7\).jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position:center;
+    width: 1570px;
+    /* height: 230px;     */
+}
+h2{
+    margin-left: 250px;
+    padding-top: 80px;
+    color: #ffff !important;
+}
+/* #input{
+    padding: 20px;
+    width:400px !important;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    
+} */
+input[type=text] {
+    margin-left: 280px; 
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding:10px;
+    margin-bottom: 10px;
+    width: 400px;
+    color: white;
+  }
+ button{
+    padding: 10px;
+    background-color:lightskyblue;
+    color:#fff;
+    border:none;
+    font-size:16px;
+    border-radius: 3px !important;
+    width: 80px;
+    box-shadow: 1px 1px 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 40px;  
+}
+
+li {
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.567);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin:10px 0px 0px 250px;
+    width: 450px;
+}
+ 
+ li button{
+    padding: 10px;
+    background-color: transparent;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow:none;
+    color: black;
+    font-size: larger;
+} 
+
+li p {
+ margin-left: 20px;
+ margin-top: 10px;
+}
+.complete {
+    text-decoration:line-through;
+    color:blueviolet;
+}
