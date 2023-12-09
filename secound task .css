@@ -1,10 +1,10 @@
 .con{
     background-image: url("./wallpaperflare.com_wallpaper\ \(7\).jpg"); 
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size:auto;
     background-position:center;
     width: 1570px;
-    /* height: 230px;     */
+    height:auto;    
 }
 h2{
     margin-left: 250px;
